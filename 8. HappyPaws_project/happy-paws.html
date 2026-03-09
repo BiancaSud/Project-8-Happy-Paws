@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HappyPaws</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="happy-paws.css" />
+
+</head>
+
+<body>
+    
+<header>
+
+    <i class="fa-solid fa-bars"></i>
+
+    <div id="social">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-tiktok"></i>
+    </div>
+
+    <div id="drop-down">
+        <button id="home">Home <i class="fa-solid fa-chevron-right fa-xs"></i></button>
+        <button id="adopt">Adopt a pet <i class="fa-solid fa-chevron-right fa-xs"></i></button>
+        <button id="blog">Blog <i class="fa-solid fa-chevron-right fa-xs"></i></button>
+        <button id="about">About <i class="fa-solid fa-chevron-right fa-xs"></i></button>
+    </div>
+
+    <div id="language">
+        <div id="english"></div>
+        <i class="fa-solid fa-caret-down fa-xs"></i>
+    </div>
+
+</header>
+
+<div id="header-pic">
+
+    <div class="title-box">
+        <h1>HappyPaws</h1>
+        <h2>Every paw deserves a home</h2>
+        <h3>Find your new best friend!</h3>
+    </div>
+
+    <div class="animals">
+
+        <div class="animal-box" id="dog">
+            <img src="media/dog.png">
+            <i class="fa-solid fa-dog animal-icon"></i>
+            <p>Adopt a dog</p>
+        </div>
+
+        <div class="animal-box" id="cat">
+            <img src="media/cat.png">
+            <i class="fa-solid fa-cat animal-icon"></i>
+            <p>Adopt a cat</p>
+        </div>
+
+        <div class="animal-box" id="other">
+            <img src="media/rabbit.webp">
+            <i class="fa-solid fa-paw animal-icon"></i>
+            <p>Other animals</p>
+        </div>
+
+        <div class="animal-box" id="shelter">
+            <img src="media/shelter.png">
+            <i class="fa-solid fa-tent animal-icon"></i>
+            <p>Find shelter</p>
+        </div>
+
+    </div>
+
+</div>
+
+<div id="search-bar">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input type="text" placeholder="Search...">
+</div>
+
+<div class="about-adopting">
+
+    <div id="box-title">
+        <h1>Adoppting is an act of <span class="span">l<i class="fa-solid fa-shield-dog"></i>ve</h1>
+    </div>
+
+    <div id="box-info">
+        <p>These are the steps to take to adopt your new friend. Fill out the <span class="span underline">form</span> to schedule your visit.</p>
+    </div>
+
+    <div id="steps">
+
+        <div class="step one">
+            <p>Meet your best friend</p>
+            <i class="fa-solid fa-face-smile-beam icon"></i>
+        </div>
+
+        <div class="step two">
+            <p>Document the adoption</p>
+            <i class="fa-solid fa-file-signature icon"></i>
+        </div>
+
+        <div class="step three">
+            <p>Become HappyPaws!</p>
+            <i class="fa-solid fa-paw icon"></i>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="available">
+
+    <h2>Pets available for adoption <i class="fa-solid fa-angle-right"></i></h2>
+
+    <div id="pets">
+
+        <div class="pet-box">
+            <div class="pet-pic lola"></div>
+
+            <div class="pet-info">
+
+                <div class="pet-gender">
+                    <i class="fa-solid fa-venus"></i> 
+                    <p>Lola</p>
+                </div>
+
+                <div class="pet-age">
+                    <i class="fa-solid fa-cat"></i> 
+                    <p>3 years</p>
+                </div>
+
+            </div>
+
+            <div class="fave">
+                <i class="fa-regular fa-heart fa-lg non-active"></i>
+                <i class="fa-solid fa-heart fa-lg active"></i>
+            </div>
+            
+        </div>
+
+        <div class="pet-box">
+            <div class="pet-pic dipper"></div>
+
+            <div class="pet-info">
+
+                <div class="pet-gender">
+                    <i class="fa-solid fa-mars"></i> 
+                    <p>Dipper</p>
+                </div>
+
+                <div class="pet-age">
+                    <i class="fa-solid fa-cat"></i> 
+                    <p>10 months</p>
+                </div>
+
+            </div>
+
+            <div class="fave">
+                <i class="fa-regular fa-heart fa-lg non-active"></i>
+                <i class="fa-solid fa-heart fa-lg active"></i>
+            </div>
+
+        </div>
+
+        <div class="pet-box">
+            <div class="pet-pic king"></div>
+
+            <div class="pet-info">
+
+                <div class="pet-gender">
+                    <i class="fa-solid fa-mars"></i> 
+                    <p>King</p>
+                </div>
+
+                <div class="pet-age">
+                    <i class="fa-solid fa-dog"></i> 
+                    <p>3 years</p>
+                </div>
+
+            </div>
+
+            <div class="fave">
+                <i class="fa-regular fa-heart fa-lg non-active"></i>
+                <i class="fa-solid fa-heart fa-lg active"></i>
+            </div>
+
+        </div>
+
+        <div class="pet-box">
+            <div class="pet-pic mike"></div>
+
+            <div class="pet-info">
+
+                <div class="pet-gender">
+                    <i class="fa-solid fa-mars"></i> 
+                    <p>Mike</p>
+                </div>
+
+                <div class="pet-age">
+                    <i class="fa-solid fa-dog"></i> 
+                    <p>5 years</p>
+                </div>
+
+            </div>
+
+            <div class="fave">
+                <i class="fa-regular fa-heart fa-lg non-active"></i>
+                <i class="fa-solid fa-heart fa-lg active"></i>
+            </div>
+
+        </div>
+
+        <div class="pet-box">
+            <div class="pet-pic sem"></div>
+
+            <div class="pet-info">
+
+                <div class="pet-gender">
+                    <i class="fa-solid fa-mars"></i> 
+                    <p>Sem</p>
+                </div>
+
+                <div class="pet-age">
+                    <i class="fa-solid fa-crow"></i> 
+                    <p>2 years</p>
+                </div>
+
+            </div>
+
+            <div class="fave">
+                <i class="fa-regular fa-heart fa-lg non-active"></i>
+                <i class="fa-solid fa-heart fa-lg active"></i>
+            </div>
+
+        </div>
+
+        <div class="pet-box">
+            <div class="pet-pic uno"></div>
+
+            <div class="pet-info">
+
+                <div class="pet-gender">
+                    <i class="fa-solid fa-mars"></i> 
+                    <p>Uno</p>
+                </div>
+
+                <div class="pet-age">
+                    <i class="fa-solid fa-cat"></i> 
+                    <p>5 months</p>
+                </div>
+
+            </div>
+
+            <div class="fave">
+                <i class="fa-regular fa-heart fa-lg non-active"></i>
+                <i class="fa-solid fa-heart fa-lg active"></i>
+            </div>
+
+        </div>
+
+        <div class="pet-box">
+            <div class="pet-pic bessy"></div>
+
+            <div class="pet-info">
+
+                <div class="pet-gender">
+                    <i class="fa-solid fa-venus"></i> 
+                    <p>Bessy</p>
+                </div>
+
+                <div class="pet-age">
+                    <i class="fa-solid fa-dog"></i> 
+                    <p>3 years</p>
+                </div>
+
+            </div>
+
+            <div class="fave">
+                <i class="fa-regular fa-heart fa-lg non-active"></i>
+                <i class="fa-solid fa-heart fa-lg active"></i>
+            </div>
+
+        </div>
+
+        <div class="pet-box none2">
+            <div class="pet-pic kevin-mia"></div>
+
+            <div class="pet-info">
+
+                <div class="pet-gender">
+                    <i class="fa-solid fa-mars"></i> 
+                    <p>Kevin & Mia</p>
+                </div>
+
+                <div class="pet-age">
+                    <i class="fa-solid fa-cat"></i> 
+                    <p>1 year</p>
+                </div>
+
+            </div>
+
+            <div class="fave">
+                <i class="fa-regular fa-heart fa-lg non-active"></i>
+                <i class="fa-solid fa-heart fa-lg active"></i>
+            </div>
+
+        </div>
+
+        <div class="pet-box none2">
+            <div class="pet-pic chips"></div>
+
+            <div class="pet-info">
+
+                <div class="pet-gender">
+                    <i class="fa-solid fa-mars"></i> 
+                    <p>Chips</p>
+                </div>
+
+                <div class="pet-age">
+                    <i class="fa-solid fa-dog"></i> 
+                    <p>6 years</p>
+                </div>
+
+            </div>
+
+            <div class="fave">
+                <i class="fa-regular fa-heart fa-lg non-active"></i>
+                <i class="fa-solid fa-heart fa-lg active"></i>
+            </div>
+
+        </div>
+
+        <div class="pet-box none1 none2">
+            <div class="pet-pic roxy"></div>
+
+            <div class="pet-info">
+
+                <div class="pet-gender">
+                    <i class="fa-solid fa-venus"></i> 
+                    <p>Roxy</p>
+                </div>
+
+                <div class="pet-age">
+                    <i class="fa-solid fa-dog"></i> 
+                    <p>6 months</p>
+                </div>
+
+            </div>
+
+            <div class="fave">
+                <i class="fa-regular fa-heart fa-lg non-active"></i>
+                <i class="fa-solid fa-heart fa-lg active"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+</div>
+
+<button class="see-more">See more <i class="fa-solid fa-angle-right"></i></button>
+
+<div class="about-page">
+    
+    <div class="grid">
+
+        <div class="box mission">
+            <h1>Our Mission</h1>
+            <p>We are dedicated to finding loving families for pets in need. Every adoption is a life saved.</p>
+            <i class="fa-solid fa-chalkboard-user"></i>
+        </div>
+
+        <div class="box why">
+            <h1>Why Adopt?</h1>
+            <p>When you adopt, you don't just save one life - you make room for others to be rescued.</p>
+            <i class="fa-solid fa-hand-holding-heart"></i>
+        </div>
+
+        <div class="box how">
+            <h1>How It Works?</h1>
+            <p>Choose. Meet. Adopt. Love. Our process is simple, safe and transparent for both you and your new companion.</p>
+            <i class="fa-solid fa-paw"></i>
+        </div>
+
+    </div>
+
+</div>
+
+
+<div id="blog-section">
+
+    <h1>Our Blog Article</h1>
+
+    <div class="cat-section">
+
+        <h2 class="section-tilte">Cats Articles</h2>
+
+        <div class="article">
+
+            <div class="pet-article">
+                <div class="pet-img cat-img1"></div>
+                <p class="blog-title">General Cat Care</p>
+            </div>
+
+            <div class="pet-article">
+                <div class="pet-img cat-img2"></div>
+                <p class="blog-title">Cat Adoption Checklist</p>
+            </div>
+
+            <div class="pet-article">
+                <div class="pet-img cat-img3"></div>
+                <p class="blog-title">Best Cat & Cute Kitten Names</p>
+            </div>
+
+            <div class="pet-article none2">
+                <div class="pet-img cat-img4"></div>
+                <p class="blog-title">6 Indoor VS Outdoor Cat Myths</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <button class="see-more">See more <i class="fa-solid fa-angle-right"></i></button>
+
+    <br>
+    
+    <div class="dog-section">
+
+        <h2 class="section-tilte">Dogs Articles</h2>
+
+        <div class="article">
+
+            <div class="pet-article">
+                <div class="pet-img dog-img1"></div>
+                <p class="blog-title">How To Introduce a New Dog and Get Dogs to Bond</p>
+            </div>
+
+            <div class="pet-article">
+                <div class="pet-img dog-img2"></div>
+                <p class="blog-title">Cool Dogs Names</p>
+            </div>
+
+            <div class="pet-article">
+                <div class="pet-img dog-img3"></div>
+                <p class="blog-title">The Firts Days With Your Senior Dog</p>
+            </div>
+
+            <div class="pet-article none2">
+                <div class="pet-img dog-img4"></div>
+                <p class="blog-title">Black Dog Sindrome</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <button class="see-more">See more <i class="fa-solid fa-angle-right"></i></button>
+    
+
+</div>
+
+<div class="adoption-form">
+
+    <div id="form-info">
+        <h2 id="form-main-title">Do you want to put a pet up for adoption?</h2>
+        <h3 id="form-sub-title">Fill out the form below and we'll help you find a new family for it!</h3>
+        <div id="pet-form-img"></div>
+        <small>*We'll contact you later to schedule a meeting in which we'll give you more details about the documents you need to bring to the shelter.</small>
+    </div>
+    
+    <div id="form-box">
+
+        <div id="form">
+
+            <p class="form-p">Introduce your friend:</p>
+
+            <div class="pet-introduction">
+
+                <div class="pet-type">
+                    <label for="type">Type:</label>
+                    <select name="type" id="type">
+                        <option value="bird">Bird</option>
+                        <option value="cat">Cat</option>
+                        <option value="chinchilla">Chinchilla</option>
+                        <option value="degu">Degu</option>
+                        <option value="dog">Dog</option>
+                        <option value="ferret">Ferret</option>
+                        <option value="fish">Fish</option>
+                        <option value="frog">Frog</option>
+                        <option value="gerbil">Gerbil</option>
+                        <option value="guinea-pig">Guinea pig</option>
+                        <option value="hamster">Hamster</option>
+                        <option value="hedgehog">Hedgehog</option>
+                        <option value="insect">Insect</option>
+                        <option value="lizard">Lizard</option>
+                        <option value="mouse">Mouse</option>
+                        <option value="rabbit">Rabbit</option>
+                        <option value="rat">Rat</option>
+                        <option value="salamander">Salamander</option>
+                        <option value="snake">Snake</option>
+                        <option value="turtle">Turtle</option>
+                        <option value="other">Other</option>
+                    </select> <small>*</small>
+                </div>
+
+                <div class="pet-breed">
+                    <label for="breed">Breed:</label>
+                    <input type="text" id="breed" placeholder="Your pet breed is..." required> <small>*</small>
+                </div>
+
+                <div class="pet-name">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Your pet name is..." required> <small>*</small>
+                </div>
+
+                <div class="pet-gender">
+
+                    <p id="gender-label">Gender:</p>
+
+                    <input type="radio" name="title" id="male">
+                    <label for="male">Male</label>
+                    
+                    <input type="radio" name="title" id="female">
+                    <label for="female">Female</label> <small>*</small>
+
+                </div>
+
+                <div class="pet-age">
+
+                    <div id="age-number">
+                        <label for="age">Age:</label>
+                        <input type="number" id="age" required min="1"> <small>*</small>
+                    </div>
+
+                    <div id="age-type">
+
+                        <input type="radio" name="title" id="months">
+                        <label for="months">Months</label>
+
+                        <input type="radio" name="title" id="year">
+                        <label for="year">Year(s)</label> <small>*</small>
+
+                    </div>
+                    
+                </div>
+
+                <div class="your-pet-pic">
+                    <label for="pic">Upload pic:</label>
+                    <input type="file" id="pic" accept="image/png, image/jpeg"><small>*</small>
+                </div>
+
+            </div>
+
+            <p class="form-p">How can we contact you?</p>
+
+            <div class="contact-you">
+
+                <div class="your-name">
+                    <label for="owner-name">Your name:</label>
+                    <input type="text" id="owner-name" placeholder="Your name is..." required> <small>*</small>
+                </div>
+
+                <div class="phone-number">
+                    <label for="phone">Phone number:</label>
+                    <input type="tel" id="phone" placeholder="Your number is..." required> <small>*</small>
+                </div>
+
+                <div class="your-email">
+                    <label for="email">Your e-mail:</label>
+                    <input type="email" id="email" placeholder="Your e-mail is..." required> <small>*</small>
+                </div>
+
+            </div>
+
+            <small>*Required fields</small>
+
+            <input class="send-btn" type="submit"></i></input>
+
+        </div>
+        
+    </div>
+
+</div>
+
+<div class="location">
+
+    <h1>Visit Us</h1>
+
+    <div class="location-content">
+
+        <div class="location-box location1">
+            <div class="map map1"></div>
+            <p><i class="fa-solid fa-location-dot"></i> 7001 Old Winter Garden Rd, Orlando, FL 32835</p>
+            <p><i class="fa-solid fa-phone"></i> (407) 903-1934</p>
+        </div>
+        
+        <div class="location-box location2">
+            <div class="map map2"></div>
+            <p><i class="fa-solid fa-location-dot"></i> 13577 Heaney Ave, Orlando, FL 32827</p>
+            <p><i class="fa-solid fa-phone"></i> (321) 221-7289</p>
+        </div>
+        
+        <div class="location-box location3">
+            <div class="map map3"></div>
+            <p><i class="fa-solid fa-location-dot"></i> 4903 Donovan St, Orlando, FL 32808</p>
+            <p><i class="fa-solid fa-phone"></i> (407) 528-0427</p>
+        </div>
+        
+
+    </div>
+
+</div>
+
+</body>
+
+<footer>
+
+    <div class="footer-links">
+        <div class="links-info">
+            <p class="links-title">RESOURCES</p>
+            <a href=""><small>About Us</small></a>
+            <a href=""><small>Contact Us</small></a>
+            <a href=""><small>FAQs</small></a>
+            <a href=""><small>Blog Articles</small></a>
+            <a href=""><small>Our Locations</small></a>
+        </div>
+
+        <div class="links-info">
+            <p class="links-title">ABOUT CATS</p>
+            <a href=""><small>Cat Adoption</small></a>
+            <a href=""><small>Cat Breeds</small></a>
+            <a href=""><small>Cat Behaivor</small></a>
+            <a href=""><small>Cat Health & Wellness</small></a>
+            <a href=""><small>Cat Training</small></a>
+            <a href=""><small>Feeding Your Cat</small></a>
+        </div>
+
+        <div class="links-info">
+            <p class="links-title">ABOUT DOGS</p>
+            <a href=""><small>Dog Adoption</small></a>
+            <a href=""><small>Dog Breeds</small></a>
+            <a href=""><small>Dog Behaivor</small></a>
+            <a href=""><small>Dog Health & Wellness</small></a>
+            <a href=""><small>Dog Training</small></a>
+            <a href=""><small>Feeding Your Dog</small></a>
+        </div>
+
+        <div class="links-info">
+            <p class="links-title">OTHER ANIMALS FOR ADOPTION</p>
+            <a href=""><small>Birds</small></a>
+            <a href=""><small>Rodents</small></a>
+            <a href=""><small>Rabbits</small></a>
+            <a href=""><small>Reptiles</small></a>
+            <a href=""><small>Fish</small></a>
+            <a href=""><small>Other</small></a>
+        </div>
+    </div>
+
+    <div class="follow-us">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-tiktok"></i>
+    </div>
+
+    <div class="copyright">
+        <a href=""><small>Copyright &copy; 2025 - Happy Paws</small></a>
+        <a href=""><small>Privacy Policy</small></a>
+        <a href=""><small>Cookies Policy</small></a>
+    </div>
+
+</footer>
+
+</html>
