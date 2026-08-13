@@ -2,9 +2,14 @@
 
 A multi-page website for a pet adoption shelter, built with HTML and CSS.
 
-**Live site:** https://happy-paws-shelter-website.netlify.app/
+**Live site:** https://happy-paws-shelter-website.netlify.app/   /  
+https://biancasud.github.io/Project-8-Happy-Paws/
 
-![Happy Paws](screenshot.png)
+![Happy Paws]
+<img width="1844" height="940" alt="image" src="https://github.com/user-attachments/assets/c21de1a5-593c-4371-90da-9cbb9ae365e6" />
+<img width="401" height="826" alt="image" src="https://github.com/user-attachments/assets/8585552a-b89d-4821-bc41-f2851f141f04" />
+
+
 
 ## About
 
